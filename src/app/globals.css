@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-sea-primary: #263C90;
+  --color-sea-primary-light: #3a52ad;
+  --color-sea-accent: #59C1AC;
+  --color-sea-accent-hover: #48a895;
+  --color-sea-gold: #1B5759;
+  --color-sea-gold-light: #287a7d;
+  --color-sea-green: #59C1AC;
+  
+  --font-sans: var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+}
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  }
+}
