@@ -16,18 +16,17 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between gap-4">
           {/* Logo & Branding */}
           <div className="flex items-center shrink-0">
-            <div className="flex h-10 sm:h-12 items-center justify-center">
-              <img src="https://seca-sa.org/storage/settings/01KERKQYN44W4YGRMB96SN0V4T.svg" alt="SECA Logo" className="h-full object-contain" />
+            <div className="flex h-12 sm:h-14 items-center justify-center p-1 bg-white rounded-xl">
+              <img src="/saea-logo-color.png" alt="SAEA Logo" className="h-full object-contain" />
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
             <a href="/" className="text-sm font-semibold text-sea-primary hover:text-sea-accent transition-colors">{t.header.home}</a>
-            <a href="https://seca-sa.org/about" target="_blank" className="text-sm font-semibold text-slate-600 hover:text-sea-accent transition-colors">{t.header.about}</a>
-            <a href="https://seca-sa.org/packages" target="_blank" className="text-sm font-semibold text-slate-600 hover:text-sea-accent transition-colors">{t.header.packages}</a>
-            <a href="https://seca-sa.org/committees" target="_blank" className="text-sm font-semibold text-slate-600 hover:text-sea-accent transition-colors">{t.header.committees}</a>
-            <a href="https://seca-sa.org/developments" target="_blank" className="text-sm font-semibold text-slate-600 hover:text-sea-accent transition-colors">{t.header.developments}</a>
+            <a href="https://ar.saea.sa/about" target="_blank" className="text-sm font-semibold text-slate-600 hover:text-sea-accent transition-colors">{t.header.about}</a>
+            <a href="https://ar.saea.sa/entertainment-diplomas" target="_blank" className="text-sm font-semibold text-slate-600 hover:text-sea-accent transition-colors">{t.header.packages}</a>
+            <a href="https://ar.saea.sa#contactus" target="_blank" className="text-sm font-semibold text-slate-600 hover:text-sea-accent transition-colors">{t.header.developments}</a>
           </nav>
 
           {/* Actions */}
@@ -69,10 +68,9 @@ export default function Header() {
       {isMenuOpen && (
         <div className="lg:hidden absolute top-20 left-0 w-full bg-white border-b border-slate-200 shadow-xl p-4 flex flex-col gap-4 animate-in slide-in-from-top-2">
           <a href="/" className="text-base font-semibold text-sea-primary p-2 border-b border-slate-100">{t.header.home}</a>
-          <a href="https://seca-sa.org/about" className="text-base font-semibold text-slate-700 p-2 border-b border-slate-100">{t.header.about}</a>
-          <a href="https://seca-sa.org/packages" className="text-base font-semibold text-slate-700 p-2 border-b border-slate-100">{t.header.packages}</a>
-          <a href="https://seca-sa.org/committees" className="text-base font-semibold text-slate-700 p-2 border-b border-slate-100">{t.header.committees}</a>
-          <a href="https://seca-sa.org/developments" className="text-base font-semibold text-slate-700 p-2 border-b border-slate-100">{t.header.developments}</a>
+          <a href="https://ar.saea.sa/about" className="text-base font-semibold text-slate-700 p-2 border-b border-slate-100">{t.header.about}</a>
+          <a href="https://ar.saea.sa/entertainment-diplomas" className="text-base font-semibold text-slate-700 p-2 border-b border-slate-100">{t.header.packages}</a>
+          <a href="https://ar.saea.sa#contactus" className="text-base font-semibold text-slate-700 p-2 border-b border-slate-100">{t.header.developments}</a>
           
           <a href="#wizard" className="flex justify-center items-center gap-2 rounded-lg bg-sea-accent px-5 py-3 text-sm font-bold text-white mt-2">
             {t.header.apply}

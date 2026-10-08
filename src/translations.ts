@@ -1,22 +1,22 @@
 export const translations = {
   ar: {
     header: {
-      title: "الجمعية السعودية للمعارض والمؤتمرات",
-      subtitle: "SECA",
+      title: "الأكاديمية السعودية للترفيه",
+      subtitle: "SAEA",
       home: "الرئيسية",
-      about: "عن SECA",
-      packages: "العضويات",
-      committees: "اللجان",
-      developments: "التطورات",
+      about: "عن الأكاديمية",
+      packages: "برامج الدبلوم",
+      committees: "التسجيل",
+      developments: "تواصل معنا",
       track: "استعلام عن طلب",
       apply: "قدم الآن",
     },
     hero: {
       badge: "التسجيل متاح الآن لدفعة 2026/2027",
-      title1: "نصنع",
-      title2: "كفاءات المستقبل",
-      title3: "لقطاع المعارض والمؤتمرات في المملكة",
-      desc: "برامج تدريبية متخصصة ومعتمدة منتهية بالتوظيف، مصممة لتأهيل الكوادر الوطنية بشراكات دولية.",
+      title1: "حيث نخرج",
+      title2: "صناع السعادة",
+      title3: "لقطاع الترفيه في المملكة",
+      desc: "برامج تدريبية متخصصة ومعتمدة منتهية بالتوظيف، مصممة لتأهيل الكوادر الوطنية بشراكات دولية بقيادة الأكاديمية السعودية للترفيه.",
       btnApply: "ابدأ التسجيل وفحص الأهلية",
       btnExplore: "استكشف البرامج",
       kpi1: "شهادة معتمدة من TVTC",
@@ -26,7 +26,7 @@ export const translations = {
     },
     programs: {
       title: "البرامج التدريبية المتاحة",
-      desc: "اختر مسارك المهني في قطاع المعارض والمؤتمرات من خلال برامجنا المتخصصة المصممة وفق أعلى المعايير العالمية.",
+      desc: "اختر مسارك المهني في قطاع الترفيه والفعاليات من خلال برامجنا المتخصصة المصممة وفق أعلى المعايير العالمية.",
       duration: "المدة: سنتان تدريبية",
       mode: "نمط الدراسة: حضوري - الرياض",
       pathsTitle: "المسارات الوظيفية:",
@@ -40,21 +40,21 @@ export const translations = {
         },
         {
           id: "centers_management",
-          title: "إدارة وتشغيل مراكز المؤتمرات",
-          enTitle: "Conferences Centers Management",
+          title: "إدارة وتشغيل مراكز الترفيه",
+          enTitle: "Entertainment Centers Management",
           paths: ["مدير مركز", "مشرف عمليات", "أخصائي تجربة زائر"]
         },
         {
           id: "event_management",
-          title: "تنظيم وإدارة المعارض والمؤتمرات",
-          enTitle: "MICE & Event Management",
-          paths: ["منظم معارض", "مدير مشروع", "منسق مؤتمرات"]
+          title: "تنظيم وإدارة الفعاليات الحية",
+          enTitle: "Live Events Management",
+          paths: ["منظم فعاليات", "مدير مشروع", "منسق ترفيه"]
         }
       ]
     },
     wizard: {
       title: "مسار القبول الذكي",
-      desc: "خطوات بسيطة وسريعة لبدء رحلتك المهنية.",
+      desc: "خطوات بسيطة وسريعة لبدء رحلتك المهنية في صناعة الترفيه.",
       step1: "فحص الأهلية",
       step2: "البيانات",
       step3: "المرفقات",
@@ -115,37 +115,37 @@ export const translations = {
       support: "الدعم والاستفسارات"
     },
     footer: {
-      desc: "المظلة الرائدة لقطاع المعارض والمؤتمرات في المملكة العربية السعودية، تعمل كحلقة وصل استراتيجية لتعزيز التعاون وتقديم تجارب استثنائية تدعم مكانة المملكة.",
+      desc: "مؤسسة تعليمية رائدة تهدف إلى تأهيل الكوادر الوطنية لقطاع الترفيه والفعاليات، معتمدة من المؤسسة العامة للتدريب التقني والمهني.",
       links: "روابط هامة",
-      about: "عن الجمعية",
+      about: "عن الأكاديمية",
       programs: "البرامج التدريبية",
       terms: "شروط القبول والتسجيل",
       track: "متابعة حالة الطلب",
       faq: "الأسئلة الشائعة",
       contact: "تواصل معنا",
       address: "الرياض - المملكة العربية السعودية",
-      rights: "© 2026 الجمعية السعودية للمعارض والمؤتمرات. جميع الحقوق محفوظة.",
+      rights: "© 2019 - 2026 الأكاديمية السعودية للترفيه. جميع الحقوق محفوظة.",
       policy: "سياسة الخصوصية",
       tos: "الشروط والأحكام"
     }
   },
   en: {
     header: {
-      title: "Saudi Exhibition & Conferences Association",
-      subtitle: "SECA",
+      title: "Saudi Entertainment Academy",
+      subtitle: "SAEA",
       home: "Home",
-      about: "About SECA",
-      packages: "Packages",
-      committees: "Committees",
-      developments: "Developments",
+      about: "About SAEA",
+      packages: "Diploma Programs",
+      committees: "Registration",
+      developments: "Contact Us",
       track: "Track Application",
       apply: "Apply Now",
     },
     hero: {
       badge: "Registration is open for 2026/2027",
-      title1: "Building",
-      title2: "Future Talents",
-      title3: "for the MICE Sector in Saudi Arabia",
+      title1: "Where We Graduate",
+      title2: "Happiness Makers",
+      title3: "for the Entertainment Sector in KSA",
       desc: "Specialized and accredited training programs ending with employment, designed to qualify national cadres with international partnerships.",
       btnApply: "Start Registration & Eligibility",
       btnExplore: "Explore Programs",
@@ -156,7 +156,7 @@ export const translations = {
     },
     programs: {
       title: "Available Training Programs",
-      desc: "Choose your career path in the exhibitions and conferences sector through our specialized programs designed to the highest global standards.",
+      desc: "Choose your career path in the entertainment and events sector through our specialized programs designed to the highest global standards.",
       duration: "Duration: 2 Years",
       mode: "Study Mode: On-Campus - Riyadh",
       pathsTitle: "Career Paths:",
@@ -170,15 +170,15 @@ export const translations = {
         },
         {
           id: "centers_management",
-          title: "Conferences Centers Management",
-          enTitle: "Conferences Centers Management",
+          title: "Entertainment Centers Management",
+          enTitle: "Entertainment Centers Management",
           paths: ["Center Manager", "Operations Supervisor", "Visitor Experience Specialist"]
         },
         {
           id: "event_management",
-          title: "MICE & Event Management",
-          enTitle: "MICE & Event Management",
-          paths: ["Event Organizer", "Project Manager", "Conferences Coordinator"]
+          title: "Live Events Management",
+          enTitle: "Live Events Management",
+          paths: ["Event Organizer", "Project Manager", "Entertainment Coordinator"]
         }
       ]
     },
@@ -245,16 +245,16 @@ export const translations = {
       support: "Support & Inquiries"
     },
     footer: {
-      desc: "The leading umbrella for the MICE sector in Saudi Arabia, acting as a strategic link to enhance cooperation and deliver exceptional experiences.",
+      desc: "A leading educational institution aimed at qualifying national cadres for the entertainment and events sector, accredited by TVTC.",
       links: "Important Links",
-      about: "About SECA",
+      about: "About SAEA",
       programs: "Training Programs",
       terms: "Admission Terms",
       track: "Track Application",
       faq: "FAQs",
       contact: "Contact Us",
       address: "Riyadh - Saudi Arabia",
-      rights: "© 2026 Saudi Exhibition & Conferences Association. All rights reserved.",
+      rights: "© 2019 - 2026 Saudi Entertainment Academy. All rights reserved.",
       policy: "Privacy Policy",
       tos: "Terms & Conditions"
     }

@@ -9,10 +9,10 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "الجمعية السعودية للمعارض والمؤتمرات | SECA",
-  description: "المظلة الرائدة لقطاع المعارض والمؤتمرات في المملكة العربية السعودية",
+  title: "الأكاديمية السعودية للترفيه | SAEA",
+  description: "نصنع كفاءات المستقبل لقطاع الترفيه والفعاليات في المملكة",
   icons: {
-    icon: "https://seca-sa.org/storage/settings/01KERKQYP9FDT08FEVNDYFY8Z2.svg",
+    icon: "https://ugc.production.linktr.ee/dc62cfd2-df08-4e89-a2a9-7c8df4fce3f6_Group-28.png",
   }
 };
 

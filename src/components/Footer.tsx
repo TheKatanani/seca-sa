@@ -12,8 +12,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12 border-b border-slate-800 pb-12">
           
           <div className="md:col-span-2">
-            <div className="mb-8">
-              <img src="/seca-logo-white.png" alt="SECA Logo" className="h-16 md:h-20 w-auto object-contain" />
+            <div className="flex items-center gap-3 mb-6">
+              <div className="flex h-16 w-auto items-center justify-center">
+                <img src="/saea-logo-white.png" alt="SAEA Logo" className="h-full object-contain" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-white tracking-tight">{t.header.title}</h3>
+                <p className="text-xs text-slate-400">Saudi Entertainment Academy</p>
+              </div>
             </div>
             <p className="text-sm font-medium leading-relaxed max-w-sm mb-6">
               {t.footer.desc}
@@ -34,11 +40,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6">{t.footer.links}</h4>
             <ul className="space-y-4 text-sm font-medium">
-              <li><a href="https://seca-sa.org/about" className="hover:text-sea-accent transition-colors">{t.footer.about}</a></li>
-              <li><a href="#programs" className="hover:text-sea-accent transition-colors">{t.footer.programs}</a></li>
+              <li><a href="https://ar.saea.sa/about" target="_blank" className="hover:text-sea-accent transition-colors">{t.footer.about}</a></li>
+              <li><a href="https://ar.saea.sa/entertainment-diplomas" target="_blank" className="hover:text-sea-accent transition-colors">{t.footer.programs}</a></li>
               <li><a href="#wizard" className="hover:text-sea-accent transition-colors">{t.footer.terms}</a></li>
               <li><a href="#tracker" className="hover:text-sea-accent transition-colors">{t.footer.track}</a></li>
-              <li><a href="#" className="hover:text-sea-accent transition-colors">{t.footer.faq}</a></li>
+              <li><a href="https://ar.saea.sa#contactus" target="_blank" className="hover:text-sea-accent transition-colors">{t.footer.faq}</a></li>
             </ul>
           </div>
 
@@ -51,10 +57,10 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-sea-accent shrink-0" />
-                <a href="mailto:info@seca-sa.org" className="hover:text-white transition-colors">info@seca-sa.org</a>
+                <a href="mailto:info@saea.sa" className="hover:text-white transition-colors">info@saea.sa</a>
               </li>
               <li className="flex items-center gap-3 pl-8">
-                <a href="mailto:contact@seca-sa.org" className="hover:text-white transition-colors">contact@seca-sa.org</a>
+                <a href="mailto:recruitment@saea.sa" className="hover:text-white transition-colors">recruitment@saea.sa</a>
               </li>
             </ul>
           </div>
