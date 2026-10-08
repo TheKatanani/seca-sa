@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "الأكاديمية السعودية للترفيه | SAEA",
   description: "نصنع كفاءات المستقبل لقطاع الترفيه والفعاليات في المملكة",
   icons: {
-    icon: "https://ugc.production.linktr.ee/dc62cfd2-df08-4e89-a2a9-7c8df4fce3f6_Group-28.png",
+    icon: "/saea-logo-color.png",
   }
 };
 
